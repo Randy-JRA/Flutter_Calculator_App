@@ -54,6 +54,10 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+        appBar: AppBar(
+          backgroundColor: Colors.deepPurple,
+        title: const Center(child: Text('JRAsprawn Calculator')),
+    ),
       backgroundColor: Colors.deepPurple[100],
       body: Column(
         children: <Widget> [
